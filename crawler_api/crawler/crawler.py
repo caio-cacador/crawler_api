@@ -12,7 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 from crawler_api.routes.stocks.exception import BadRequest, CrawlerError
 
-DRIVER_PATH = os.path.join(os.getcwd(), '../geckodriver')
+DRIVER_PATH = os.path.join(os.getcwd(), 'geckodriver')
 CrawlerResult = namedtuple('CrawlerResult', ['symbol', 'name', 'price'])
 CRAWLER_URL = 'https://finance.yahoo.com/screener/new'
 
