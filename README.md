@@ -4,6 +4,8 @@ Este projeto tem como objetivo realizar crawler no site de finanças do yahoo
 https://finance.yahoo.com/screener/new
 
 # Requisitos
+#### OBS: Necessário ter o mozilla instalado.
+
 - Instalação das dependencias
 
 pip install -r requirements.txt
