@@ -4,11 +4,11 @@ Este projeto tem como objetivo realizar crawler no site de finanças do yahoo
 https://finance.yahoo.com/screener/new
 
 # Requisitos
-- instalar as dependencias
+- Instalação das dependencias
 
 pip install -r requirements.txt
 
-- baixar o webdriver do mozilla
+- Download webdriver do mozilla
 https://github.com/mozilla/geckodriver/releases
 
 versão 32 bits:
@@ -24,14 +24,15 @@ https://github.com/mozilla/geckodriver/releases/download/v0.29.0/geckodriver-v0.
 python run.py
 
 ### Como testar a api:
-realizar o GET passando o parametro 'region' como no exemplo abaixo:
+ - Realizar o GET passando o parametro 'region' como no exemplo abaixo:
+
 localhost:5000/stocks?region=argentina
 
 
 ### Status Code mapeados:
-400 - O argumento 'region' é obrigatório.
-400 - A região requisitada não foi encontrada.
-500 - Erro interno no crawler.
+- 400 - O argumento 'region' é obrigatório.
+- 400 - A região requisitada não foi encontrada.
+- 500 - Erro interno no crawler.
 
 ## Mudanças
 * v1.0.0
